@@ -1,4 +1,4 @@
-baseURL = "https://hourswith.expert/"
+baseURL = "http://hourswith.expert/"
 languageCode = "en-us"
 title = "Hours with Experts"
 theme = "book"
