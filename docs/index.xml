@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Hours with Experts</title><link>http://hourswith.expert/docs/</link><description>Recent content in Docs on Hours with Experts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://hourswith.expert/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>http://hourswith.expert/docs/overview/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/overview/</guid><description>Introduction # Welcome to Hours with Experts for Data Engineering!
+Tech Used in the Class # Scala # Scala is a strong statically typed general-purpose programming language built on the Java Virtual Machine (JVM) which supports both object-oriented programming and functional programming.
+For more info:
+Website Apache Kafka # Website
+Apache Spark
+Apache HBase
+Apache Hadoop - Hadoop Distributed File System (HDFS)
+Apache Hive</description></item></channel></rss>
