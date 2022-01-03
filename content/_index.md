@@ -3,25 +3,17 @@ title: Introduction
 type: docs
 ---
 
-# Hours with Experts
+## Introduction
 
-## Kafka information
+Welcome to Hours with Experts for Data Engineering! This course is meant to be consumed in one of the following ways:
 
-Kafka brokers
+- Self directed - on your own, just by following the pages on this website
+- Guided - with a group of students, taught by data engineers at [1904labs](https://1904labs.com/)
 
-Windows
+### Self Directed
 
-```
-SET BOOTSTRAP_SERVERS=35.239.241.212:9092,35.239.230.132:9092,34.69.66.216:9092
-windows/kafka-console-consumer.bat --bootstrap-server %BOOTSTRAP_SERVERS% --topic dehwe --from-beginning
-```
+Huzzah! To begin, head on over to the [Getting Started](/docs/getting-started/) page.
 
-Mac OS or Linux
-```
-export BOOTSTRAP_SERVERS=35.239.241.212:9092,35.239.230.132:9092,34.69.66.216:9092
-bin/kafka-console-consumer.sh --bootstrap-server $BOOTSTRAP_SERVERS --topic dehwe --from-beginning
-```
+### Guided
 
-## HBase information
-
-TODO
+Click [here](https://1904labs.com/our-culture/community/hours-with-experts/) for more information or to sign up for a cohort of Hours with Experts.

@@ -1,6 +1,6 @@
-# hourswith.expert static site
+# Hours with Experts: Data Engineering
 
-Documentation for the Hours with Experts course.
+This repository holds the source code for the website: [hourswith.expert]
 
 ## Contributing to the Site
 
