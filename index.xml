@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Hours with Experts</title><link>http://hourswith.expert/</link><description>Recent content in Introduction on Hours with Experts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://hourswith.expert/index.xml" rel="self" type="application/rss+xml"/><item><title>Overview</title><link>http://hourswith.expert/docs/overview/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/overview/</guid><description>Introduction # Welcome to Hours with Experts for Data Engineering!
-Tech Used in the Class # Scala # Scala is a strong statically typed general-purpose programming language built on the Java Virtual Machine (JVM) which supports both object-oriented programming and functional programming.
-For more info:
-Website Apache Kafka # Website
-Apache Spark
-Apache HBase
-Apache Hadoop - Hadoop Distributed File System (HDFS)
-Apache Hive</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction on Hours with Experts</title><link>http://hourswith.expert/</link><description>Recent content in Introduction on Hours with Experts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://hourswith.expert/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>http://hourswith.expert/docs/getting-started/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/getting-started/</guid><description>Getting Started # Hardware requirements
+Installing Software # Intellij - scala Git Maven
+Setup on Mac, Windows, and Linux
+TODO: should we do python?
+Environment Variables # todo: basics of environment variables
+Using the Command Line # todo: command line basics for mac/linux/windows</description></item><item><title>Scala</title><link>http://hourswith.expert/docs/scala/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/scala/</guid><description>Scala # Scala introduction.
+TODO</description></item><item><title>Kafka</title><link>http://hourswith.expert/docs/kafka/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/kafka/</guid><description>Kafka # Spark introduction.
+TODO</description></item><item><title>Spark</title><link>http://hourswith.expert/docs/spark/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/spark/</guid><description>Spark # Spark introduction.
+TODO</description></item><item><title>Spark and Kafka</title><link>http://hourswith.expert/docs/spark-and-kafka/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/spark-and-kafka/</guid><description>Using Kafka with Spark # How to read from Kafka in Spark introduction.
+TODO</description></item><item><title>HBase</title><link>http://hourswith.expert/docs/hbase/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/hbase/</guid><description>HBase # HBase introduction.
+TODO</description></item><item><title>Spark and HBase</title><link>http://hourswith.expert/docs/spark-and-hbase/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/spark-and-hbase/</guid><description>Using HBase with Spark # How to query HBase from Spark introduction.
+TODO</description></item></channel></rss>
