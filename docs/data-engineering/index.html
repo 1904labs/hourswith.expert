@@ -1,0 +1,130 @@
+<!doctype html><html lang=en dir=ltr>
+<head>
+<meta name=generator content="Hugo 0.91.2">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Data Engineering Introduction #  First there was files. Files as far as the eye could see. Data in CSV and XML. Then Excel came along. If you were fancy you had mainframes.
+Then came the relational database renaissance. Everyone writes SQL and puts all their data in Oracle, MySQL, PostgreSQL, or SQL Server.
+Next people wanted to consolidate all their data into a Data Warehouse. MPP platforms like Teradata, Netezza, and Oracle DW.">
+<meta name=theme-color content="#FFFFFF"><meta property="og:title" content="Data Engineering Introduction">
+<meta property="og:description" content="Data Engineering Introduction #  First there was files. Files as far as the eye could see. Data in CSV and XML. Then Excel came along. If you were fancy you had mainframes.
+Then came the relational database renaissance. Everyone writes SQL and puts all their data in Oracle, MySQL, PostgreSQL, or SQL Server.
+Next people wanted to consolidate all their data into a Data Warehouse. MPP platforms like Teradata, Netezza, and Oracle DW.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://hourswith.expert/docs/data-engineering/"><meta property="article:section" content="docs">
+<meta property="article:published_time" content="2022-01-03T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-01-03T00:00:00+00:00">
+<title>Data Engineering Introduction | Hours with Experts</title>
+<link rel=manifest href=/manifest.json>
+<link rel=icon href=/favicon.png type=image/x-icon>
+<link rel=stylesheet href=/book.min.e935e20bd0d469378cb482f0958edf258c731a4f895dccd55799c6fbc8043f23.css integrity="sha256-6TXiC9DUaTeMtILwlY7fJYxzGk+JXczVV5nG+8gEPyM=">
+<script defer src=/en.search.min.c6d0f0cb610f318b2ed6520e236a5a5ff076790636c85128158aaa7458dbc0d5.js integrity="sha256-xtDwy2EPMYsu1lIOI2paX/B2eQY2yFEoFYqqdFjbwNU="></script>
+</head>
+<body dir=ltr>
+<input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control>
+<main class="container flex">
+<aside class=book-menu>
+<div class=book-menu-content>
+<nav>
+<h2 class=book-brand>
+<a href=/><span>Hours with Experts</span>
+</a>
+</h2>
+<div class=book-search>
+<input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/>
+<div class="book-search-spinner hidden"></div>
+<ul id=book-search-results></ul>
+</div>
+<ul>
+<li>
+<a href=http://hourswith.expert/docs/data-engineering/ class=active>Data Engineering Introduction</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/getting-started/>Getting Started</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/scala/>Scala</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/kafka/>Kafka</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/spark/>Spark</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/spark-and-kafka/>Spark and Kafka</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/hbase/>HBase</a>
+</li>
+<li>
+<a href=http://hourswith.expert/docs/spark-and-hbase/>Spark and HBase</a>
+</li>
+</ul>
+</nav>
+<script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+</div>
+</aside>
+<div class=book-page>
+<header class=book-header>
+<div class="flex align-center justify-between">
+<label for=menu-control>
+<img src=/svg/menu.svg class=book-icon alt=Menu>
+</label>
+<strong>Data Engineering Introduction</strong>
+<label for=toc-control>
+<img src=/svg/toc.svg class=book-icon alt="Table of Contents">
+</label>
+</div>
+<aside class="hidden clearfix">
+<nav id=TableOfContents>
+<ul>
+<li><a href=#data-engineering-introduction>Data Engineering Introduction</a></li>
+</ul>
+</nav>
+</aside>
+</header>
+<article class=markdown><h2 id=data-engineering-introduction>
+Data Engineering Introduction
+<a class=anchor href=#data-engineering-introduction>#</a>
+</h2>
+<p>First there was files. Files as far as the eye could see. Data in CSV and XML. Then Excel came along. If you were fancy you had mainframes.</p>
+<p>Then came the relational database renaissance. Everyone writes SQL and puts all their data in Oracle, MySQL, PostgreSQL, or SQL Server.</p>
+<p>Next people wanted to consolidate all their data into a Data Warehouse. MPP platforms like Teradata, Netezza, and Oracle DW.</p>
+<p>Hadoop burst onto the scene with cluster computing. Hadoop distributed file system. Map Reduce</p>
+<p>Cloud offered a new way with managed services. Separation of storage and compute.</p>
+<p>MPP - Massively Parallel Processing
+SQL - Structured Query Language
+NoSQL - Literally No SQL or “Not Only SQL”. Examples include key/value stores like Redis, wide column dbs like Cassandra and HBase.</p>
+<p>Volume - The quantity of generated and stored data.
+Big Data is typically when you have so much data you can’t store/process it effectively on one machine</p>
+<p>Variety - The type and nature of the data.
+Example: files like CSV, structured data in databases, audio, videos, sensor readings, logs</p>
+<p>Velocity - the speed at which the data is generated and processed
+Batch (once a day, import a file into the database), Streaming 24/7 process transactions looking for fraud</p>
+<p>Variability - Inconsistency of the data set can hamper processes to handle and manage it.
+Do the values in the dataset mean the same thing? Example: free text notes field where someone enters a value, email addresses, names</p>
+<p>Veracity - The quality of captured data can vary greatly,
+Trustworthiness of the data</p>
+</article>
+<footer class=book-footer>
+<div class="flex flex-wrap justify-between">
+</div>
+</footer>
+<div class=book-comments>
+</div>
+<label for=menu-control class="hidden book-menu-overlay"></label>
+</div>
+<aside class=book-toc>
+<div class=book-toc-content>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#data-engineering-introduction>Data Engineering Introduction</a></li>
+</ul>
+</nav>
+</div>
+</aside>
+</main>
+</body>
+</html>
