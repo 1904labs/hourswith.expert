@@ -11,3 +11,14 @@ weight: 13
 Spark introduction.
 
 TODO
+
+{{< highlight html >}}
+<section id="main">
+  <div>
+   <h1 id="title">{{ .Title }}</h1>
+    {{ range .Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
+{{< /highlight >}}
