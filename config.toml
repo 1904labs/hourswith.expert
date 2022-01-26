@@ -3,3 +3,7 @@ languageCode = "en-us"
 title = "Hours with Experts"
 theme = "book"
 sectionPagesMenu = "main"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
