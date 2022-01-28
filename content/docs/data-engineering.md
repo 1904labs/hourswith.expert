@@ -7,6 +7,10 @@ weight: 10
 
 ## Data Engineering Introduction
 
+{{% note %}}
+This is a note with an *important message*
+{{% /note %}}
+
 First there was files. Files as far as the eye could see. Data in CSV and XML. Then Excel came along. If you were fancy you had mainframes.
 
 Then came the relational database renaissance. Everyone writes SQL and puts all their data in Oracle, MySQL, PostgreSQL, or SQL Server. 
