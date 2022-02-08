@@ -3,32 +3,19 @@
 <meta name=generator content="Hugo 0.92.1">
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Getting Started #  To run these examples, you need an environment capable of running an IDE (Intellij) Hardware requirements
-Installing Software #  Intellij - scala Git Maven
-Setup on Mac, Windows, and Linux
-TODO: should we do python?
-Installing Intellij IDEA on Mac #  Download Intellij IDEA Community Edition
-https://www.jetbrains.com/idea/download/#section=mac
-Open Intellij From the home screen, click &ldquo;Plugins&rdquo; Find and install the Scala plugin
-Environment Variables #  todo: basics of environment variables">
+<meta name=description content="Getting Started #  Get you and your computer ready!
+Pre-requisites #  Data Engineers often work with the command line as part of their job. We&rsquo;ll use the command line a few times throughout this course.
+ REQUIRED: Start with the basics 👉 Command line basics Starting with Kafka, you&rsquo;ll also need to know How to Set Environment Variables  Setup your Computer #  To run these examples, you need an environment capable of running an IDE (Intellij) which means a modern CPU and at least 4GB of RAM.">
 <meta name=theme-color content="#FFFFFF"><meta property="og:title" content="Getting Started">
-<meta property="og:description" content="Getting Started #  To run these examples, you need an environment capable of running an IDE (Intellij) Hardware requirements
-Installing Software #  Intellij - scala Git Maven
-Setup on Mac, Windows, and Linux
-TODO: should we do python?
-Installing Intellij IDEA on Mac #  Download Intellij IDEA Community Edition
-https://www.jetbrains.com/idea/download/#section=mac
-Open Intellij From the home screen, click &ldquo;Plugins&rdquo; Find and install the Scala plugin
-Environment Variables #  todo: basics of environment variables">
-<meta property="og:type" content="article">
-<meta property="og:url" content="http://hourswith.expert/docs/getting-started/"><meta property="article:section" content="docs">
-<meta property="article:published_time" content="2022-01-03T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-01-03T00:00:00+00:00">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://hourswith.expert/docs/getting-started/">
 <title>Getting Started | Hours with Experts</title>
 <link rel=manifest href=/manifest.json>
 <link rel=icon href=/favicon.png type=image/x-icon>
 <link rel=stylesheet href=/book.min.d33e109a37b10745456956d8e9c566467801353413389403b11ab376e4c78ff9.css integrity="sha256-0z4QmjexB0VFaVbY6cVmRngBNTQTOJQDsRqzduTHj/k=">
-<script defer src=/en.search.min.851cc7fc781b531f08d4167975e21ce6691f33ed7d54d08f48e9d3a2924b7dcc.js integrity="sha256-hRzH/HgbUx8I1BZ5deIc5mkfM+19VNCPSOnTopJLfcw="></script>
+<script defer src=/en.search.min.5d6787e1a7af6b0ac6ad102880fbf797dfdabfc928faab1830eab6b4b45e8788.js integrity="sha256-XWeH4aevawrGrRAogPv3l9/av8ko+qsYMOq2tLReh4g="></script>
+<link rel=alternate type=application/rss+xml href=http://hourswith.expert/docs/getting-started/index.xml title="Hours with Experts">
 </head>
 <body dir=ltr>
 <input type=checkbox class="hidden toggle" id=menu-control>
@@ -52,6 +39,8 @@ Environment Variables #  todo: basics of environment variables">
 </li>
 <li>
 <a href=http://hourswith.expert/docs/getting-started/ class=active>Getting Started</a>
+<ul>
+</ul>
 </li>
 <li>
 <a href=http://hourswith.expert/docs/scala/>Scala</a>
@@ -90,52 +79,66 @@ Environment Variables #  todo: basics of environment variables">
 <aside class="hidden clearfix">
 <nav id=TableOfContents>
 <ul>
-<li><a href=#getting-started>Getting Started</a>
+<li><a href=#getting-started>Getting Started</a></li>
+<li><a href=#pre-requisites>Pre-requisites</a></li>
+<li><a href=#setup-your-computer>Setup your Computer</a>
 <ul>
 <li><a href=#installing-software>Installing Software</a></li>
-<li><a href=#environment-variables>Environment Variables</a></li>
-<li><a href=#using-the-command-line>Using the Command Line</a></li>
 </ul>
 </li>
 </ul>
 </nav>
 </aside>
 </header>
-<a href=https://github.com/1904labs/hourswith.expert/blob/main/content/docs/getting-started.md>Edit this page on GitHub docs/getting-started.md</a>
+<a href=https://github.com/1904labs/hourswith.expert/blob/main/content/docs/getting-started/_index.md>Edit this page on GitHub docs/getting-started/_index.md</a>
 <article class=markdown><h2 id=getting-started>
 Getting Started
 <a class=anchor href=#getting-started>#</a>
 </h2>
-<p>To run these examples, you need an environment capable of running an IDE (Intellij)
-Hardware requirements</p>
+<p>Get you and your computer ready!</p>
+<h2 id=pre-requisites>
+Pre-requisites
+<a class=anchor href=#pre-requisites>#</a>
+</h2>
+<p>Data Engineers often work with the command line as part of their job. We&rsquo;ll use the command line a few times
+throughout this course.</p>
+<ul>
+<li>REQUIRED: Start with the basics 👉 <a href=https://tutorial.djangogirls.org/en/intro_to_command_line/>Command line basics</a></li>
+<li>Starting with Kafka, you&rsquo;ll also need to know <a href=https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html>How to Set Environment Variables</a></li>
+</ul>
+<h2 id=setup-your-computer>
+Setup your Computer
+<a class=anchor href=#setup-your-computer>#</a>
+</h2>
+<p>To run these examples, you need an environment capable of running an IDE (Intellij) which means a modern CPU and
+at least 4GB of RAM.</p>
 <h3 id=installing-software>
 Installing Software
 <a class=anchor href=#installing-software>#</a>
 </h3>
-<p>Intellij - scala
-Git
-Maven</p>
-<p>Setup on Mac, Windows, and Linux</p>
-<p>TODO: should we do python?</p>
+<p>To start we&rsquo;ll need the following software:</p>
+<ul>
+<li>Intellij</li>
+<li>Git</li>
+</ul>
 <h4 id=installing-intellij-idea-on-mac>
 Installing Intellij IDEA on Mac
 <a class=anchor href=#installing-intellij-idea-on-mac>#</a>
 </h4>
 <p>Download Intellij IDEA Community Edition</p>
 <p><a href="https://www.jetbrains.com/idea/download/#section=mac">https://www.jetbrains.com/idea/download/#section=mac</a></p>
-<p>Open Intellij
-From the home screen, click &ldquo;Plugins&rdquo;
-Find and install the Scala plugin</p>
-<h3 id=environment-variables>
-Environment Variables
-<a class=anchor href=#environment-variables>#</a>
-</h3>
-<p>todo: basics of environment variables</p>
-<h3 id=using-the-command-line>
-Using the Command Line
-<a class=anchor href=#using-the-command-line>#</a>
-</h3>
-<p>todo: command line basics for mac/linux/windows</p>
+<p>Open Intellij.</p>
+<p>From the home screen, click &ldquo;Plugins&rdquo; and go to Marketplace.</p>
+<p>Find and install the Scala plugin.</p>
+<p><img src=intellij-scala-plugin.png alt="Intellij Scala Plugin"></p>
+<h4 id=installing-git-on-mac>
+Installing Git on Mac
+<a class=anchor href=#installing-git-on-mac>#</a>
+</h4>
+<p>Your mac should come with git already! Check by opening up the terminal and typing</p>
+<pre tabindex=0><code>git --version
+</code></pre><p>If all goes well, you&rsquo;ll see something like this:</p>
+<p><img src=git-version.png alt="Show Git&amp;rsquo;s Version"></p>
 </article>
 <footer class=book-footer>
 <div class="flex flex-wrap justify-between">
@@ -149,11 +152,11 @@ Using the Command Line
 <div class=book-toc-content>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#getting-started>Getting Started</a>
+<li><a href=#getting-started>Getting Started</a></li>
+<li><a href=#pre-requisites>Pre-requisites</a></li>
+<li><a href=#setup-your-computer>Setup your Computer</a>
 <ul>
 <li><a href=#installing-software>Installing Software</a></li>
-<li><a href=#environment-variables>Environment Variables</a></li>
-<li><a href=#using-the-command-line>Using the Command Line</a></li>
 </ul>
 </li>
 </ul>

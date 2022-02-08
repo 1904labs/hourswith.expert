@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Hours with Experts</title><link>http://hourswith.expert/docs/</link><description>Recent content in Docs on Hours with Experts</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://hourswith.expert/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Engineering Introduction</title><link>http://hourswith.expert/docs/data-engineering/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/data-engineering/</guid><description>Data Engineering Introduction # This is a note with an important message
-asdfasdf First there was files. Files as far as the eye could see. Data in CSV and XML. Then Excel came along. If you were fancy you had mainframes.
+First there was files. Files as far as the eye could see. Data in CSV and XML. Then Excel came along. If you were fancy you had mainframes.
 Then came the relational database renaissance. Everyone writes SQL and puts all their data in Oracle, MySQL, PostgreSQL, or SQL Server.
-Next people wanted to consolidate all their data into a Data Warehouse.</description></item><item><title>Getting Started</title><link>http://hourswith.expert/docs/getting-started/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/getting-started/</guid><description>Getting Started # To run these examples, you need an environment capable of running an IDE (Intellij) Hardware requirements
-Installing Software # Intellij - scala Git Maven
-Setup on Mac, Windows, and Linux
-TODO: should we do python?
-Installing Intellij IDEA on Mac # Download Intellij IDEA Community Edition
-https://www.jetbrains.com/idea/download/#section=mac
-Open Intellij From the home screen, click &amp;ldquo;Plugins&amp;rdquo; Find and install the Scala plugin
-Environment Variables # todo: basics of environment variables</description></item><item><title>Scala</title><link>http://hourswith.expert/docs/scala/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/scala/</guid><description>Scala # Scala introduction.
+Next people wanted to consolidate all their data into a Data Warehouse.</description></item><item><title>Scala</title><link>http://hourswith.expert/docs/scala/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/scala/</guid><description>Scala # Scala introduction.
 TODO</description></item><item><title>Kafka</title><link>http://hourswith.expert/docs/kafka/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/kafka/</guid><description>Kafka # Spark introduction.
 TODO</description></item><item><title>Spark</title><link>http://hourswith.expert/docs/spark/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>http://hourswith.expert/docs/spark/</guid><description>Spark # Spark introduction.
 TODO
