@@ -22,25 +22,67 @@ throughout this course.
 To run these examples, you need an environment capable of running an IDE (Intellij) which means a modern CPU and
 at least 4GB of RAM.
 
+Clone the Hours with Experts repository
+
+https://github.com/1904labs/streaming-data-pipeline
+
 ### Installing Software
 
-To start we'll need the following software:
- - Intellij
- - Git
+To start we'll need to download and install git
 
-#### Installing Intellij IDEA on Mac
+https://git-scm.com/downloads
 
-Download Intellij IDEA Community Edition
 
-https://www.jetbrains.com/idea/download/#section=mac
+#### Installing Intellij IDEA
 
-Open Intellij.
+Download and install Intellij IDEA Community Edition from the website
+
+Windows: https://www.jetbrains.com/idea/download/#section=windows
+
+Mac: https://www.jetbrains.com/idea/download/#section=mac
 
 From the home screen, click "Plugins" and go to Marketplace.
 
 Find and install the Scala plugin.
 
 ![Intellij Scala Plugin](intellij-scala-plugin.png)
+
+Restart the IDE
+
+Open the scala-hello-world project
+
+![Open Project](open-project.png)
+
+Click Open as Project.
+
+Click Trust Project.
+
+If you don't have Java installed, you can install it through IntelliJ. Click on File -> Project Structure.
+
+Under Platform Settings click SDKs. Click the "+" sign and choose Download SDK.
+
+![Download JDK](intellij-download-jdk.png)
+
+For version, select `1.8` and anything you want for vendor (Amazon Corretto works well).
+
+![Download JDK 2](intellij-download-jdk2.png)
+
+Click OK to save.
+
+After installing the JDK for the first time, Intellij may be a little confused. You can refresh
+the maven project by opening the Maven tool window and clicking the "Reload all Maven Projects" button.
+
+![Download JDK 2](intellij-maven-refresh.png)
+
+
+#### Sanity check: Run the Scala App
+
+In the scala-hello-world project (that you cloned as part of streaming-data-pipeline) open `App.scala`
+by navigating down `src/main/scala/com.labs.hwe`.
+
+![Run project](intellij-run-project.png)
+
+Run the project by clicking the green arrow next to App. Verify that you see "Hello World" in the output.
 
 #### Installing Git on Mac
 
